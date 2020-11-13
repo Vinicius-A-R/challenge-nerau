@@ -3,3 +3,4 @@ export { default as Navbar } from './Navbar';
 export { default as Button } from './Button';
 export { default as SectionCover } from './SectionCover';
 export { default as SectionCompany } from './SectionCompany';
+export { default as SectionSport } from './SectionSport';

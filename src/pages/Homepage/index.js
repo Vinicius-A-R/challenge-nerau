@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { SectionCover, SectionCompany } from '../../components';
+import { SectionCover, SectionCompany, SectionSport } from '../../components';
 
 import { Container } from './styles';
 
@@ -9,6 +9,7 @@ function Homepage() {
     <Container>
       <SectionCover />
       <SectionCompany />
+      <SectionSport />
     </Container>
   );
 }
