@@ -5,14 +5,16 @@ import NavLink from './NavLink';
 import Button from '../Button';
 
 import { ReactComponent as Logo } from '../../assets/logo.svg';
+// import logo from '../../assets/logo.png';
 
 import { Container, NavDesk } from './styles';
 
 function Navbar() {
   return (
     <Container>
-      <Link to="/">
-        <Logo className="logo" />
+      <Link to="/" className="logo">
+        <Logo />
+        {/* <img src={logo} alt="logoipsum" /> */}
       </Link>
 
       <NavDesk>
