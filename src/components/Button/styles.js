@@ -5,7 +5,6 @@ export const Container = styled.button.attrs({
 })`
   height: 48px;
   padding: 0 24px;
-  margin: 0 16px;
 
   color: ${({ color }) => (color ? `${color}` : 'var(--color-primary-light)')};
   font-weight: 700;
