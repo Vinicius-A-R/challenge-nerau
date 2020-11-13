@@ -17,9 +17,9 @@ export default createGlobalStyle`
 }
 
 body {
-  /* font-family: 'Roboto', -apple-system, system-ui, sans-serif; */
   font-family: 'PT Sans', sans-serif;
-	-webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  background-color: #E5E5E5;
 }
 
 a{
