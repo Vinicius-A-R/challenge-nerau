@@ -6,6 +6,7 @@ export default createGlobalStyle`
   --color-primary-light: #3286C3;
   --color-primary-dark: #1D4F91;
   --color-secondary: #FF5E0F;
+  --color-secondary-dark: #D44513;
   --color-tertiary: #FFBF3F;
 }
 
