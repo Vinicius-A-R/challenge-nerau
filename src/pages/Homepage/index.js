@@ -1,12 +1,12 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import { Container } from './styles';
 
 function Homepage() {
   return (
-    <>
-      <h1>OI</h1>
-    </>
+    <Container>
+      <h1>Homepage</h1>
+    </Container>
   );
 }
 

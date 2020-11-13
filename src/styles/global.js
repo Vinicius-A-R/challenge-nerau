@@ -1,6 +1,14 @@
 import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
+:root{
+  --color-primary: #2E7BB2;
+  --color-primary-light: #3286C3;
+  --color-primary-dark: #1D4F91;
+  --color-secondary: #FF5E0F;
+  --color-tertiary: #FFBF3F;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -9,7 +17,8 @@ export default createGlobalStyle`
 }
 
 body {
-  font-family: 'Roboto', -apple-system, system-ui, sans-serif;
+  /* font-family: 'Roboto', -apple-system, system-ui, sans-serif; */
+  font-family: 'PT Sans', sans-serif;
 	-webkit-font-smoothing: antialiased;
 }
 
