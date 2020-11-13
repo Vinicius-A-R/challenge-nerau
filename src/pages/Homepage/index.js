@@ -1,6 +1,11 @@
 import React from 'react';
 
-import { SectionCover, SectionCompany, SectionSport } from '../../components';
+import {
+  SectionCover,
+  SectionCompany,
+  SectionSport,
+  SectionProductOne,
+} from '../../components';
 
 import { Container } from './styles';
 
@@ -10,6 +15,7 @@ function Homepage() {
       <SectionCover />
       <SectionCompany />
       <SectionSport />
+      <SectionProductOne />
     </Container>
   );
 }
