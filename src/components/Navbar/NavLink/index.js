@@ -8,7 +8,7 @@ export const Container = styled(Link)`
   border: 2px solid transparent;
 
   &:hover {
-    border: 2px solid #222;
+    color: var(--color-secondary);
   }
 `;
 

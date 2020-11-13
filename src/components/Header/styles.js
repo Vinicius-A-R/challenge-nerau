@@ -11,4 +11,6 @@ export const Container = styled.header`
   position: absolute;
   left: 0;
   top: 0;
+
+  z-index: 999;
 `;
