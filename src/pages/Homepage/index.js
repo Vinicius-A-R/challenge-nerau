@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { SectionCover } from '../../components';
+import { SectionCover, SectionCompany } from '../../components';
 
 import { Container } from './styles';
 
@@ -8,7 +8,7 @@ function Homepage() {
   return (
     <Container>
       <SectionCover />
-      <h1>Homepage</h1>
+      <SectionCompany />
     </Container>
   );
 }
