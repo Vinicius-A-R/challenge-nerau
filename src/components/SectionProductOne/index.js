@@ -1,15 +1,19 @@
 import React from 'react';
 
-import img from '../../assets/img/fiber-1.svg';
+// import img from '../../assets/img/fiber-1.svg';
+import { ReactComponent as Img } from '../../assets/img/fiber-1.svg';
 
 import Button from '../Button';
 
-import { Container, Description } from './styles';
+import { Container, Image, Description } from './styles';
 
 function SectionProductOne() {
   return (
     <Container>
-      <img src={img} alt="sou+ fibras" />
+      <Image>
+        {/* <img src={img} alt="sou+ fibras" /> */}
+        <Img />
+      </Image>
 
       <Description>
         <h1>Precisa do sabor de alimentos naturais feitos com amor?</h1>

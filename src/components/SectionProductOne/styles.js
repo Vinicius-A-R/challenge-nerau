@@ -9,9 +9,17 @@ export const Container = styled.section`
   display: flex;
   flex-direction: row;
   align-items: center;
+`;
 
-  img {
-    width: 50%;
+export const Image = styled.div`
+  max-width: 45%;
+  overflow: hidden;
+
+  svg {
+    position: relative;
+    left: -20%;
+    transform: translateX(-20%);
+    max-height: 600px;
   }
 `;
 
@@ -22,7 +30,7 @@ export const Description = styled.div`
   flex: 0.75;
 
   h1 {
-    max-width: 500px;
+    max-width: 450px;
     margin-bottom: 24px;
 
     color: var(--color-tertiary);
@@ -38,7 +46,7 @@ export const Description = styled.div`
   }
 
   button {
-    max-width: 50%;
+    max-width: 40%;
     letter-spacing: 0.1em;
   }
 `;
