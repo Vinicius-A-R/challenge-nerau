@@ -71,8 +71,8 @@ export const ButtonArrowRight = styled.button.attrs({
 
   position: absolute;
   right: 0;
-  top: 23%;
-  transform: translateY(-23%);
+  top: 95%;
+  transform: translateY(-95%);
 
   display: flex;
   align-items: center;
@@ -102,8 +102,8 @@ export const ButtonArrowLeft = styled.button.attrs({
 
   position: absolute;
   right: 0;
-  top: 10%;
-  transform: translateY(-10%);
+  top: 80%;
+  transform: translateY(-80%);
 
   display: flex;
   align-items: center;
