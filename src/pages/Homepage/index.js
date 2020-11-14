@@ -5,6 +5,7 @@ import {
   SectionCompany,
   SectionSport,
   SectionProductOne,
+  SectionPost,
 } from '../../components';
 
 import { Container } from './styles';
@@ -16,6 +17,7 @@ function Homepage() {
       <SectionCompany />
       <SectionSport />
       <SectionProductOne />
+      <SectionPost />
     </Container>
   );
 }
