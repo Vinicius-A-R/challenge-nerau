@@ -7,3 +7,4 @@ export { default as SectionSport } from './SectionSport';
 export { default as SectionProductOne } from './SectionProductOne';
 export { default as SectionPost } from './SectionPost';
 export { default as SectionInstagram } from './SectionInstagram';
+export { default as SectionAthletes } from './SectionAthletes';

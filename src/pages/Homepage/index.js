@@ -7,6 +7,7 @@ import {
   SectionProductOne,
   SectionPost,
   SectionInstagram,
+  SectionAthletes,
 } from '../../components';
 
 import { Container } from './styles';
@@ -20,6 +21,7 @@ function Homepage() {
       <SectionProductOne />
       <SectionPost />
       <SectionInstagram />
+      <SectionAthletes />
     </Container>
   );
 }
