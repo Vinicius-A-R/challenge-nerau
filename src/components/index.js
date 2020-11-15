@@ -9,3 +9,4 @@ export { default as SectionPost } from './SectionPost';
 export { default as SectionInstagram } from './SectionInstagram';
 export { default as SectionAthletes } from './SectionAthletes';
 export { default as SectionPartner } from './SectionPartner';
+export { default as Footer } from './Footer';
