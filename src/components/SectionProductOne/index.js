@@ -1,7 +1,6 @@
 import React from 'react';
 
-// import img from '../../assets/img/fiber-1.svg';
-import { ReactComponent as Img } from '../../assets/img/fiber-1.svg';
+import img1 from '../../assets/img/fiber-1.png';
 
 import Button from '../Button';
 
@@ -11,12 +10,13 @@ function SectionProductOne() {
   return (
     <Container>
       <Image>
-        {/* <img src={img} alt="sou+ fibras" /> */}
-        <Img />
+        <img src={img1} alt="sou+ fibras" />
       </Image>
 
       <Description>
-        <h1>Precisa do sabor de alimentos naturais feitos com amor?</h1>
+        <h1>
+          Precisa do sabor de <br /> alimentos naturais feitos com amor?
+        </h1>
 
         <span>
           Alimentos naturais feitos com carinho, sabor e qualidade. Tudo para

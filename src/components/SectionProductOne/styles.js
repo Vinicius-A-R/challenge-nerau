@@ -12,8 +12,13 @@ export const Container = styled.section`
 `;
 
 export const Image = styled.div`
-  max-width: 45%;
+  max-width: 60%;
   overflow: hidden;
+
+  img {
+    position: relative;
+    left: -220px;
+  }
 
   svg {
     position: relative;
@@ -26,8 +31,6 @@ export const Image = styled.div`
 export const Description = styled.div`
   display: flex;
   flex-direction: column;
-
-  flex: 0.75;
 
   h1 {
     max-width: 450px;
