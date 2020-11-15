@@ -126,7 +126,7 @@ export const NotFound = styled.span`
   justify-content: center;
 
   width: 100%;
-  height: 200px;
+  height: 354px;
 
   color: #222;
   font-size: 48px;
