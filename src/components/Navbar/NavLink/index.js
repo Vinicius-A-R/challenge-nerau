@@ -4,8 +4,9 @@ import { Link } from 'react-router-dom';
 
 export const Container = styled(Link)`
   color: #fff;
+  font-size: 16px;
+  font-weight: 700;
   padding: 12px 16px;
-  border: 2px solid transparent;
 
   &:hover {
     color: var(--color-secondary);
@@ -13,5 +14,5 @@ export const Container = styled(Link)`
 `;
 
 export default function NavLink({ label, route }) {
-  return <Container to={route}>{label}</Container>;
+  return <Container to={route || '/'}> {label}</Container>;
 }

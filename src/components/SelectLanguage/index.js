@@ -8,9 +8,9 @@ const Container = styled.select`
   padding: 12px 12px;
   margin-left: 24px;
 
-  color: #fff;
+  color: ${({ active }) => (active ? '#222' : '#fff')};
   font-weight: 700;
-  border: 1px solid #e9ecef;
+  border: 1px solid ${({ active }) => (active ? '#222' : '#e9ecef')};
   background-color: transparent;
 
   cursor: pointer;
@@ -26,9 +26,9 @@ const Container = styled.select`
   }
 `;
 
-function SelectLanguage() {
+function SelectLanguage({ active }) {
   return (
-    <Container name="language" id="language">
+    <Container name="language" id="language" active={active}>
       <option value="BR">BR</option>
       <option value="EN">EN</option>
     </Container>
