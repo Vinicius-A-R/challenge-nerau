@@ -51,7 +51,7 @@ export const Description = styled.div`
 
     &:hover {
       color: var(--color-third);
-      border: 1px solid var(--color-tertiary);
+      border: 1px solid var(--color-third);
     }
   }
 `;
