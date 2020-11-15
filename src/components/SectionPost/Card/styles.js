@@ -50,7 +50,7 @@ export const Description = styled.div`
     /* transform: scale(0.9); */
 
     &:hover {
-      color: var(--color-tertiary);
+      color: var(--color-third);
       border: 1px solid var(--color-tertiary);
     }
   }

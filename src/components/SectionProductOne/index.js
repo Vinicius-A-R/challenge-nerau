@@ -23,7 +23,7 @@ function SectionProductOne() {
           dar a energia que você precisa para o seu dia.
         </span>
 
-        <Button bgColor={`var(--color-tertiary)`} color="#fff">
+        <Button bgColor={`var(--color-third)`} color="#fff">
           COMPRAR AGORA
         </Button>
       </Description>

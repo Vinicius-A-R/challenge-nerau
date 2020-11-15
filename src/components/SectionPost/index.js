@@ -29,7 +29,7 @@ function SectionPost() {
           apoiamos, dicas, receitas e muito mais!
         </span>
 
-        <Button bgColor={`var(--color-tertiary)`} color="#fff">
+        <Button bgColor={`var(--color-third)`} color="#fff">
           FIQUE LIGADO
         </Button>
       </Description>

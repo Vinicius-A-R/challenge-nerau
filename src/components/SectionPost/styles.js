@@ -30,7 +30,7 @@ export const Description = styled.div`
   h1 {
     max-width: 340px;
 
-    color: var(--color-tertiary);
+    color: var(--color-third);
     font-size: 38px;
     line-height: 45px;
   }
