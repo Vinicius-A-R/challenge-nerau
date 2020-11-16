@@ -42,13 +42,24 @@ export const SocialMedia = styled.div`
     svg {
       color: #56ccf2;
       font-size: 24px;
-      margin-right: 24px;
+      margin: 0 8px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    justify-self: flex-start;
-    align-self: flex-start;
+    div {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+
+      svg {
+        font-size: 32px;
+      }
+    }
+
+    h3 {
+      text-align: center;
+    }
   }
 `;
 
@@ -65,6 +76,10 @@ export const Pay = styled.div`
 
   @media screen and (max-width: 768px) {
     max-width: 100%;
+
+    h3 {
+      text-align: center;
+    }
   }
 `;
 
@@ -80,5 +95,9 @@ export const Sustainable = styled.div`
 
   @media screen and (max-width: 768px) {
     margin-top: 32px;
+
+    h3 {
+      text-align: center;
+    }
   }
 `;

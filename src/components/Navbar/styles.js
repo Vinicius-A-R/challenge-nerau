@@ -42,6 +42,10 @@ export const NavDesk = styled.div`
   button {
     margin-left: 24px;
   }
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const NavLink = styled(Link)`

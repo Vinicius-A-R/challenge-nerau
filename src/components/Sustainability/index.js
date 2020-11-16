@@ -14,7 +14,8 @@ const Container = styled.div`
   grid-gap: 12px 24px;
 
   @media screen and (max-width: 768px) {
-    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
   }
 `;
 
