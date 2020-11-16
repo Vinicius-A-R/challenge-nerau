@@ -7,7 +7,6 @@ export const Container = styled.div`
   flex-direction: row;
 
   overflow-x: scroll;
-  overflow-y: hidden;
   scroll-behavior: smooth;
 
   width: 100%;
@@ -16,5 +15,9 @@ export const Container = styled.div`
   ::-webkit-scrollbar {
     width: 0px;
     height: 0px;
+  }
+
+  @media screen and (max-width: 768px) {
+    margin-left: 0;
   }
 `;

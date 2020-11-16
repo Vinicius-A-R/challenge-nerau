@@ -19,6 +19,21 @@ export const Container = styled.section`
     rgba(49, 124, 170, 1) 55%,
     rgba(0, 0, 0, 0) 45%
   );
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+    padding: 24px 16px;
+
+    background: linear-gradient(
+      180deg,
+      rgba(49, 124, 170, 1) 100%,
+      rgba(0, 0, 0, 0) 0%
+    );
+  }
 `;
 
 export const Description = styled.div`
@@ -44,6 +59,19 @@ export const Description = styled.div`
     max-width: 176px;
     letter-spacing: 0.15em;
   }
+
+  @media screen and (max-width: 768px) {
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+      text-align: center;
+    }
+
+    span {
+      text-align: center;
+    }
+  }
 `;
 
 export const Posts = styled.div`
@@ -53,7 +81,6 @@ export const Posts = styled.div`
   flex-direction: row;
 
   overflow-x: scroll;
-  overflow-y: hidden;
 
   width: 100%;
   margin-left: 32px;
@@ -61,6 +88,17 @@ export const Posts = styled.div`
   ::-webkit-scrollbar {
     width: 0px;
     height: 0px;
+  }
+
+  @media screen and (max-width: 768px) {
+    height: 100%;
+    min-height: 400px;
+
+    align-items: center;
+    justify-content: center;
+
+    margin-left: 0;
+    margin-top: 24px;
   }
 `;
 

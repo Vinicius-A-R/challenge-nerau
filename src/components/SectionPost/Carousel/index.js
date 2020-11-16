@@ -22,12 +22,12 @@ function Carousel({ btnRight, btnLeft }) {
     let scroll = document.getElementById('post-carousel');
 
     if (btnRight > right) {
-      scroll.scrollLeft += 288;
+      scroll.scrollLeft += 288 + 24;
       setRight((prev) => ++prev);
     }
 
     if (btnLeft > left) {
-      scroll.scrollLeft -= 288;
+      scroll.scrollLeft -= 288 + 24;
       setLeft((prev) => ++prev);
     }
   };
