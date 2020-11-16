@@ -17,6 +17,11 @@ export const Container = styled.section`
     rgba(255, 255, 255, 255) 55%,
     rgba(0, 0, 0, 0) 45%
   );
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    background: transparent;
+  }
 `;
 
 export const Description = styled.div`
@@ -36,6 +41,17 @@ export const Description = styled.div`
     margin-top: 32px;
     letter-spacing: 0.15em;
   }
+
+  @media screen and (max-width: 768px) {
+    padding: 48px 16px;
+
+    background: #fff;
+    text-align: center;
+
+    h1 {
+      margin-bottom: 24px;
+    }
+  }
 `;
 
 export const Text = styled.div`
@@ -53,6 +69,10 @@ export const Text = styled.div`
   & * + span {
     margin-top: 1rem;
   }
+
+  @media screen and (max-width: 768px) {
+    margin: 0 auto;
+  }
 `;
 
 export const Sport = styled.div`
@@ -62,6 +82,10 @@ export const Sport = styled.div`
 
   img {
     filter: brightness(90%);
+  }
+
+  @media screen and (max-width: 768px) {
+    max-width: 100vw;
   }
 `;
 
@@ -90,6 +114,12 @@ export const Play = styled.button.attrs({
   &:hover {
     background-color: var(--color-secondary-dark);
   }
+
+  @media screen and (max-width: 768px) {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
 `;
 
 export const Image = styled.div`
@@ -103,5 +133,21 @@ export const Image = styled.div`
     top: 50px;
 
     height: 380px;
+  }
+
+  @media screen and (max-width: 768px) {
+    max-width: 100%;
+
+    img {
+      width: 100%;
+    }
+
+    svg {
+      width: 100%;
+      height: 100%;
+
+      left: 0;
+      top: 0;
+    }
   }
 `;
