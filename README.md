@@ -26,8 +26,8 @@ or
 
 ## Homepage MOBILE
 
-<img src="https://github.com/Vinicius-A-R/challenge-nerau/blob/main/public/img/mobile.gif?raw=true" width="240px" />
+<img src="https://github.com/Vinicius-A-R/challenge-nerau/blob/main/public/mobile.gif" width="240px" />
 
 ## HOMEPAGE WEB
 
-<img src="https://github.com/Vinicius-A-R/challenge-nerau/blob/main/public/img/desktop.gif?raw=true" width="1200px" />
+<img src="https://github.com/Vinicius-A-R/challenge-nerau/blob/main/public/desktop.gif" width="1200px" />
