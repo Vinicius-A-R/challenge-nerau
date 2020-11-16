@@ -28,7 +28,7 @@ or
 
 - time spent to make this page
 
-<img src="https://github.com/Vinicius-A-R/challenge-nerau/blob/main/public/mobile.gif" width="120px" />
+<img src="https://github.com/Vinicius-A-R/challenge-nerau/blob/main/public/time.jpg" width="120px" />
 
 ## Homepage MOBILE
 
