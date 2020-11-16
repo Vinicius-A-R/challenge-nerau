@@ -11,7 +11,14 @@ export const Container = styled.section`
 
   margin: 0 auto;
   background-color: #f2f2ee;
-  fill: solid;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+
+    img {
+      width: 80%;
+    }
+  }
 `;
 
 export const Description = styled.div`
@@ -34,5 +41,27 @@ export const Description = styled.div`
 
   button {
     margin-top: 32px;
+  }
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    margin: 0 0 32px;
+
+    h2 {
+      text-align: center;
+    }
+
+    span {
+      text-align: center;
+    }
+
+    button {
+      max-width: 60%;
+    }
   }
 `;
