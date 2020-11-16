@@ -14,6 +14,14 @@ export const Container = styled.section`
   margin: 100px auto;
 
   background: url(${bgImg}) no-repeat;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+
+    height: 100%;
+    padding: 0 16px;
+    margin: 50px auto;
+  }
 `;
 
 export const Description = styled.div`
@@ -23,7 +31,6 @@ export const Description = styled.div`
 
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
 
   svg {
     color: #b0008e;
@@ -44,6 +51,17 @@ export const Description = styled.div`
     font-weight: 700;
     letter-spacing: 0.1em;
   }
+
+  @media screen and (max-width: 768px) {
+    max-width: 100%;
+    align-items: center;
+
+    h2 {
+      font-size: 32px;
+      text-align: center;
+      margin-top: 16px;
+    }
+  }
 `;
 
 export const Carousel = styled.div`
@@ -62,6 +80,10 @@ export const Carousel = styled.div`
     width: 288px;
     height: 288px;
     margin-right: 24px;
+  }
+
+  @media screen and (max-width: 768px) {
+    margin-top: 32px;
   }
 `;
 
@@ -87,5 +109,9 @@ export const ButtonArrow = styled.button.attrs({
 
   &:hover {
     filter: brightness(90%);
+  }
+
+  @media screen and (max-width: 768px) {
+    display: none;
   }
 `;
