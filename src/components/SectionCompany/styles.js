@@ -67,6 +67,7 @@ export const Header = styled.div`
     span {
       color: #fff;
       font-size: 16px;
+      font-weight: 700;
       line-height: 26px;
     }
   }
@@ -79,6 +80,20 @@ export const Header = styled.div`
       font-size: 32px;
       text-align: center;
       margin-bottom: 24px;
+    }
+
+    span {
+      text-align: center;
+    }
+
+    button {
+      width: 120px;
+      height: 120px;
+      padding: 12px;
+
+      span {
+        font-size: 12px;
+      }
     }
   }
 `;
@@ -95,6 +110,5 @@ export const Cards = styled.div`
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    /* flex-direction: column; */
   }
 `;

@@ -40,9 +40,10 @@ export const Container = styled.div`
     }
 
     svg {
-      width: 64px;
-      top: 50%;
-      transform: translateY(-50%);
+      width: 56px;
+      top: 40%;
+      left: 12px;
+      transform: translateY(-40%);
     }
 
     span {
