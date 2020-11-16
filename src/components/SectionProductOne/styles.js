@@ -9,6 +9,11 @@ export const Container = styled.section`
   display: flex;
   flex-direction: row;
   align-items: center;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
 `;
 
 export const Image = styled.div`
@@ -25,6 +30,15 @@ export const Image = styled.div`
     left: -20%;
     transform: translateX(-20%);
     max-height: 600px;
+  }
+
+  @media screen and (max-width: 768px) {
+    max-width: 100%;
+
+    img {
+      width: 100%;
+      left: 0;
+    }
   }
 `;
 
@@ -51,5 +65,15 @@ export const Description = styled.div`
   button {
     max-width: 40%;
     letter-spacing: 0.1em;
+  }
+
+  @media screen and (max-width: 768px) {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    button {
+      max-width: 60%;
+    }
   }
 `;
