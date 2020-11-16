@@ -6,7 +6,7 @@ ReactJS web application NERAU Front End challenge
 
 - [x] Responsive
 - [x] Homepage
-- [] Other pages
+- [ ] Other pages
 
 ## Dependencies
 
