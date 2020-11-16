@@ -13,6 +13,11 @@ const Container = styled.span`
   font-size: 48px;
   font-weight: 700;
   background-color: #222;
+
+  @media screen and (max-width: 768px) {
+    height: 100vh;
+    text-align: center;
+  }
 `;
 
 function NotFound() {
