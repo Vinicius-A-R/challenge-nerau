@@ -11,8 +11,12 @@ export const Container = styled(Link)`
   &:hover {
     color: var(--color-secondary);
   }
+
+  @media screen and (max-width: 768px) {
+    color: #222;
+  }
 `;
 
 export default function NavLink({ label, route }) {
-  return <Container to={route || '/'}> {label}</Container>;
+  return <Container to={route || '/'}>{label}</Container>;
 }

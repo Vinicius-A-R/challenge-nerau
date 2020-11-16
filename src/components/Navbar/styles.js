@@ -13,6 +13,7 @@ export const Container = styled.nav`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: ${({ active }) => (active ? '#FFF' : 'transparent')};
 
   a {
     color: ${({ active }) => (active ? '#222 !important' : '#fff')};
@@ -21,7 +22,6 @@ export const Container = styled.nav`
       color: var(--color-secondary) !important;
     }
   }
-  background-color: ${({ active }) => (active ? '#FFF' : 'transparent')};
 
   .logo {
     width: 120px;
@@ -45,6 +45,33 @@ export const NavDesk = styled.div`
 
   @media screen and (max-width: 768px) {
     display: none;
+  }
+`;
+
+export const NavMobile = styled.div`
+  z-index: 999;
+
+  position: absolute;
+  top: 16px;
+  right: 16px;
+
+  display: none;
+  align-items: center;
+  justify-content: center;
+
+  width: 64px;
+  height: 64px;
+
+  border-radius: 50%;
+  background-color: var(--color-primary-dark);
+
+  svg {
+    color: #fff;
+    font-size: 32px;
+  }
+
+  @media screen and (max-width: 768px) {
+    display: flex;
   }
 `;
 
