@@ -49,10 +49,19 @@ export const Description = styled.div`
 export const Tags = styled.div`
   display: grid;
   grid-template-columns: 33% 33% 33%;
+  justify-items: center;
+  align-items: center;
   grid-gap: 6px;
 
-  max-width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
   margin-bottom: 32px;
+
+  @media screen and (max-width: 768px) {
+    max-width: 100%;
+    margin: 0;
+    margin-bottom: 24px;
+  }
 `;
 
 export const Tag = styled.span`
@@ -92,7 +101,7 @@ export const Tag = styled.span`
     `}
 
   @media screen and (max-width: 768px) {
-    max-width: 120px;
+    max-width: 100%;
     padding: 8px 8px;
 
     font-size: 10px;
