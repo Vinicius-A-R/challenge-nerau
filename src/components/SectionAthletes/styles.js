@@ -4,13 +4,18 @@ export const Container = styled.section`
   width: 100%;
   max-width: 1200px;
   margin: 0 auto 100px;
+
+  @media screen and (max-width: 768px) {
+    padding: 0 16px;
+    margin-bottom: 50px;
+  }
 `;
 
 export const Description = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 
   width: 100%;
   margin-bottom: 24px;
@@ -33,19 +38,27 @@ export const Description = styled.div`
     line-height: 26px;
     letter-spacing: 0.03em;
   }
+
+  @media screen and (max-width: 768px) {
+    h2 {
+      font-size: 32px;
+    }
+  }
 `;
 
 export const Tags = styled.div`
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-gap: 6px;
 
+  max-width: 100%;
   margin-bottom: 32px;
 `;
 
 export const Tag = styled.span`
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 
   width: 164px;
   height: 34px;
@@ -67,10 +80,6 @@ export const Tag = styled.span`
     fill: var(--color-fourth);
   }
 
-  & + span {
-    margin-left: 32px;
-  }
-
   ${({ active }) =>
     active &&
     css`
@@ -81,6 +90,18 @@ export const Tag = styled.span`
         fill: #fff;
       }
     `}
+
+  @media screen and (max-width: 768px) {
+    max-width: 120px;
+    padding: 8px 8px;
+
+    font-size: 10px;
+
+    svg {
+      height: 16px;
+      margin-right: 8px;
+    }
+  }
 `;
 
 export const Slider = styled.div`
