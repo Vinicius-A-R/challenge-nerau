@@ -4,17 +4,15 @@
 
 ReactJS web application NERAU Front End challenge
 
-- [] Responsive
-- [] Homepage
+- [x] Responsive
+- [x] Homepage
 - [] Other pages
 
-## Homepage WEB
+## Dependencies
 
-<!-- ![dashboard](https://github.com/Vinicius-A-R/challenge-bigbang/blob/main/public/img/WEB.png?raw=true) -->
-
-## HOMEPAGE MOBILE
-
-<!-- ![dashboard](https://github.com/Vinicius-A-R/challenge-bigbang/blob/main/public/img/MOBILE.png?raw=true) -->
+- react-icons
+- react-router-dom
+- styled-components
 
 ## How to start
 
@@ -25,3 +23,11 @@ or
 
 1. yarn
 2. yarn start
+
+## Homepage MOBILE
+
+![dashboard](https://github.com/Vinicius-A-R/challenge-nerau/blob/main/public/img/mobile.gif?raw=true)
+
+## HOMEPAGE WEB
+
+![dashboard](https://github.com/Vinicius-A-R/challenge-bigbang/blob/main/public/img/desktop.gif?raw=true)
