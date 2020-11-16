@@ -4,9 +4,25 @@ export const Container = styled.div`
   display: flex;
   flex-direction: row;
   align-items: flex-end;
+  max-width: 100%;
 
   button {
     letter-spacing: 0.2em;
+  }
+
+  @media screen and (max-width: 768px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 24px 16px;
+
+    margin-top: 24px;
+
+    button {
+      grid-column: span 2;
+      justify-self: center;
+
+      max-width: 60%;
+    }
   }
 `;
 
@@ -34,6 +50,18 @@ export const Input = styled.div`
 
     &::placeholder {
       color: #e9ecef;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    margin: 0;
+
+    input {
+      width: 100%;
+    }
+
+    label {
+      display: none;
     }
   }
 `;

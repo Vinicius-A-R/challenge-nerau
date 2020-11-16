@@ -8,7 +8,14 @@ import Payments from '../../Payments';
 import Sustainability from '../../Sustainability';
 
 import { FaFacebookSquare, FaInstagram, FaYoutube } from 'react-icons/fa';
-import { Container, Content, SocialMedia, Pay, Sustainable } from './styles';
+import {
+  Container,
+  Content,
+  BlockThree,
+  SocialMedia,
+  Pay,
+  Sustainable,
+} from './styles';
 
 function SectionTwo() {
   return (
@@ -21,7 +28,7 @@ function SectionTwo() {
           <Reseller />
         </div>
 
-        <div>
+        <BlockThree>
           <SocialMedia>
             <h3>ACOMPANHE:</h3>
 
@@ -49,7 +56,7 @@ function SectionTwo() {
 
             <Sustainability />
           </Sustainable>
-        </div>
+        </BlockThree>
       </Content>
     </Container>
   );

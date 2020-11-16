@@ -13,6 +13,10 @@ export const Container = styled.div`
 
     margin: 0 auto;
   }
+
+  @media screen and (max-width: 768px) {
+    margin-bottom: 32px;
+  }
 `;
 
 export const Description = styled.span`
@@ -22,6 +26,10 @@ export const Description = styled.span`
   font-size: 12px;
   line-height: 16px;
   text-align: center;
+
+  @media screen and (max-width: 768px) {
+    margin: 16px 0;
+  }
 `;
 
 export const Links = styled.div`
@@ -38,6 +46,20 @@ export const Links = styled.div`
 
     &:hover {
       filter: brightness(140%);
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    a {
+      width: 50%;
+      margin: 0;
+      padding: 16px;
+
+      font-size: 10px;
+      text-align: left;
     }
   }
 `;

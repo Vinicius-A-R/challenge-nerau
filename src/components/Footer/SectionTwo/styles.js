@@ -14,6 +14,19 @@ export const Content = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 32px 0 32px;
+  }
+`;
+
+export const BlockThree = styled.div`
+  width: 100%;
+  padding: 0 16px;
 `;
 
 export const SocialMedia = styled.div`
@@ -32,6 +45,11 @@ export const SocialMedia = styled.div`
       margin-right: 24px;
     }
   }
+
+  @media screen and (max-width: 768px) {
+    justify-self: flex-start;
+    align-self: flex-start;
+  }
 `;
 
 export const Pay = styled.div`
@@ -44,6 +62,10 @@ export const Pay = styled.div`
     letter-spacing: 0.15em;
     margin-bottom: 24px;
   }
+
+  @media screen and (max-width: 768px) {
+    max-width: 100%;
+  }
 `;
 
 export const Sustainable = styled.div`
@@ -54,5 +76,9 @@ export const Sustainable = styled.div`
     font-size: 14px;
     letter-spacing: 0.15em;
     margin-bottom: 24px;
+  }
+
+  @media screen and (max-width: 768px) {
+    margin-top: 32px;
   }
 `;

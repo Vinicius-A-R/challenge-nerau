@@ -13,7 +13,7 @@ function Form() {
       </Input>
 
       <Input>
-        <label htmlFor="name">E-MAIL</label>
+        <label htmlFor="name">NOME</label>
         <input type="text" name="name" placeholder="Seu nome" />
       </Input>
 

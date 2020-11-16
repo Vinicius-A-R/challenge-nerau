@@ -34,6 +34,22 @@ const Container = styled.div`
     width: 464px;
     height: 231px;
   }
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+
+    height: 100%;
+    padding: 24px 16px;
+
+    span {
+      text-align: center;
+      margin: 0;
+    }
+
+    .mountain {
+      display: none;
+    }
+  }
 `;
 
 function SectionOne() {

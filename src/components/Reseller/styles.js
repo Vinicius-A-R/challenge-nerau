@@ -32,4 +32,24 @@ export const Container = styled.div`
     max-width: 247px;
     letter-spacing: 0.1em;
   }
+
+  @media screen and (max-width: 768px) {
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 32px;
+
+    h3 {
+      max-width: 100%;
+      text-align: center;
+
+      br {
+        display: none;
+      }
+    }
+
+    span {
+      text-align: center;
+    }
+  }
 `;

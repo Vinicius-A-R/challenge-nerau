@@ -6,6 +6,13 @@ export const Container = styled.div`
     font-size: 14px;
     letter-spacing: 0.2em;
   }
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 `;
 
 export const Links = styled.div`
@@ -32,9 +39,24 @@ export const Links = styled.div`
     color: var(--color-primary-light);
   }
 
-  .callus {
+  @media screen and (max-width: 768px) {
+    margin: 0;
+    margin-top: 12px;
+
+    div {
+      flex-direction: row;
+
+      a {
+        margin: 0 8px;
+      }
+    }
+
     a {
-      text-decoration: underline !important;
+      margin: 0 8px;
+    }
+
+    svg {
+      margin: 0;
     }
   }
 `;

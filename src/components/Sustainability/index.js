@@ -12,6 +12,10 @@ const Container = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 12px 24px;
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 `;
 
 function Sustainability() {
